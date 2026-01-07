@@ -1,4 +1,4 @@
-#Execution time tracker
+#log every function call automatically
 def decorator(func):
     def wrapper(*args,**kwargs):
         print(f"calling {func.__name__}")
